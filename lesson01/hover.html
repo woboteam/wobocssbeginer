@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            body{background: #dfdfdf; margin: 0; padding: 0;}
+            a { text-decoration: none; display: block }
+            h3{
+                margin: 0;
+                color: #333;
+                font-size: 16px;
+            }
+            strong{color: red; font-size: 16px;}
+            .wrapper{
+                margin: 0 auto;
+                width: 1100px;
+                font-family: 'Helvetica',Arial,'DejaVu Sans','Liberation Sans',Freesans,sans-serif;
+                font-size: 12px;
+            }
+            .wrapper span{
+                padding: 2px;
+                margin-left: 5px;
+                line-height: 18px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                display: block;
+            }
+            .wrapper-img{
+                height: 255px;
+                width: 350px;
+                position: relative;
+                background: #FFFFFF;
+                float: left;
+                margin-left: 10px;
+                margin-top: 10px;
+                border: 1px solid #dfdfdf;
+            }
+            .wrapper-img:hover a{
+                cursor: pointer;
+                overflow: hidden;
+            }
+            .wrapper-img:hover .pro-desc{
+                -ms-opacity: 1;
+                opacity: 1;
+                filter: alpha(opacity=100);
+                ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=100)";
+                cursor: pointer;
+                pointer-events: none;  /* sự kiện của con trỏ */
+            }
+            .wrapper-img img{
+                height: 200px;
+                width: 100%;
+            }
+            .sticknote{ 
+                position: absolute;
+                right: 10px;
+                bottom: 10px;
+                font-weight: bold;
+                color: green;
+            }
+            .pro-desc{
+                background: #FFF;
+                height: 255px;
+                width: 350px;
+                display: block;
+                position: absolute;
+                top: 0;
+                left: 0;
+                -webkit-transition-duration: .7s;       /* hiệu ứng chuyển từ trong suốt sang màu trắng 0.7 giây trên trình duyệt chrome và Safari */
+                -moz-transition-duration: .7s;        /* hiệu ứng chuyển từ trong suốt sang màu trắng 0.7 giây trên trình duyệt Mozila */
+                -o-transition-duration: .7s;       /* hiệu ứng chuyển từ trong suốt sang màu trắng 0.7 giây trên trình duyệt Opera */
+                transition-duration: .7s;   /* hiệu ứng chuyển từ trong suốt sang màu trắng 0.7 giây trên trình duyệt IE */
+                -ms-opacity: 0;         /* độ trong suốt là 0=> k thấy */
+                opacity: 0;             /* độ trong suốt là 0=> k thấy trình duyệt mới */
+                -moz-opacity: 0;        /* độ trong suốt là 0=> k thấy trình duyệt mozila */
+                filter: alpha(opacity=0);
+            }
+            .wrapper-img > a > h3, .wrapper-img > a > strong{ padding: 2px 10px;}
+            .pro-desc strong { position: absolute; top: 2px; right: 5px;}
+            .name{
+                color: blue; 
+                font-size: 18px;
+                font-weight: bold;
+            }
+            .promotion{
+                border-bottom: 1px solid #333;
+                margin-bottom: 2px;
+                padding-bottom: 2px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="wrapper-img">
+                <a href="sp01">
+                    <img src="public/images/image7.jpg" alt="image">
+                    <h3>OPPO F3 RED</h3>
+                    <strong>6.990.000đ</strong>
+                    <div class="sticknote">Mới ra mắt</div>
+                </a>
+                <div class="pro-desc">
+                    <span class="name">OPPO F3 RED</span>
+                    <strong>6.990.000đ</strong>
+                    <div class="promotion">
+                        <span>Gậy chụp ảnh (sefie) khi mua Online ( từ 4/7 - 31/7)</span>
+                        <span>Cơ hội trúng xe Honda Vision (Chương trình áp dụng tại một số tỉnh)</span>
+                    </div>
+                    <span>Màn hình: 5.5", Full HD</span>
+                    <span>HĐH: Android 6.0 (Marshmallow)</span>
+                    <span>CPU: Mediatek MT6750T 8 nhân</span>
+                    <span>RAM: 4 GB, ROM: 64 GB</span>
+                    <span>Camera: 13 MP, Selfie: 16 MP và 8 MP</span>
+                    <span>PIN: 3200 mAh</span>
+                </div>
+            </div>
+
+            <div class="wrapper-img">
+                <a href="sp02">
+                    <img src="public/images/image2.png" alt="image">
+                    <h3>OPPO F3 RED</h3>
+                    <strong>6.990.000đ</strong>
+                    <div class="sticknote">Mới ra mắt</div>
+                </a>
+                <div class="pro-desc">
+                    <span class="name">OPPO F3 RED</span>
+                    <strong>6.990.000đ</strong>
+                    <div class="promotion">
+                        <span>Gậy chụp ảnh (sefie) khi mua Online ( từ 4/7 - 31/7)</span>
+                        <span>Cơ hội trúng xe Honda Vision (Chương trình áp dụng tại một số tỉnh)</span>
+                    </div>
+                    <span>Màn hình: 5.5", Full HD</span>
+                    <span>HĐH: Android 6.0 (Marshmallow)</span>
+                    <span>CPU: Mediatek MT6750T 8 nhân</span>
+                    <span>RAM: 4 GB, ROM: 64 GB</span>
+                    <span>Camera: 13 MP, Selfie: 16 MP và 8 MP</span>
+                    <span>PIN: 3200 mAh</span>
+                </div>
+            </div>
+
+            <div class="wrapper-img">
+                <a href="sp04">
+                    <img src="public/images/image3.png" alt="image">
+                    <h3>OPPO F3 RED</h3>
+                    <strong>6.990.000đ</strong>
+                </a>
+                <div class="pro-desc">
+                    <span class="name">OPPO F3 RED</span>
+                    <strong>6.990.000đ</strong>
+                    <div class="promotion">
+                        <span>Gậy chụp ảnh (sefie) khi mua Online ( từ 4/7 - 31/7)</span>
+                        <span>Cơ hội trúng xe Honda Vision (Chương trình áp dụng tại một số tỉnh)</span>
+                    </div>
+                    <span>Màn hình: 5.5", Full HD</span>
+                    <span>HĐH: Android 6.0 (Marshmallow)</span>
+                    <span>CPU: Mediatek MT6750T 8 nhân</span>
+                    <span>RAM: 4 GB, ROM: 64 GB</span>
+                    <span>Camera: 13 MP, Selfie: 16 MP và 8 MP</span>
+                    <span>PIN: 3200 mAh</span>
+                </div>
+            </div>
+            <div class="wrapper-img">
+                <a href="#">
+                    <img src="public/images/image4.jpg" alt="image">
+                    <h3>OPPO F3 RED</h3>
+                    <strong>6.990.000đ</strong>
+                </a>
+                <div class="pro-desc">
+                    <span class="name">OPPO F3 RED</span>
+                    <strong>6.990.000đ</strong>
+                    <div class="promotion">
+                        <span>Gậy chụp ảnh (sefie) khi mua Online ( từ 4/7 - 31/7)</span>
+                        <span>Cơ hội trúng xe Honda Vision (Chương trình áp dụng tại một số tỉnh)</span>
+                    </div>
+                    <span>Màn hình: 5.5", Full HD</span>
+                    <span>HĐH: Android 6.0 (Marshmallow)</span>
+                    <span>CPU: Mediatek MT6750T 8 nhân</span>
+                    <span>RAM: 4 GB, ROM: 64 GB</span>
+                    <span>Camera: 13 MP, Selfie: 16 MP và 8 MP</span>
+                    <span>PIN: 3200 mAh</span>
+                </div>
+            </div>
+            <div class="wrapper-img">
+                <a href="#">
+                    <img src="public/images/image5.jpg" alt="image">
+                    <h3>OPPO F3 RED</h3>
+                    <strong>6.990.000đ</strong>
+                </a>
+                <div class="pro-desc">
+                    <span class="name">OPPO F3 RED</span>
+                    <strong>6.990.000đ</strong>
+                    <div class="promotion">
+                        <span>Gậy chụp ảnh (sefie) khi mua Online ( từ 4/7 - 31/7)</span>
+                        <span>Cơ hội trúng xe Honda Vision (Chương trình áp dụng tại một số tỉnh)</span>
+                    </div>
+                    <span>Màn hình: 5.5", Full HD</span>
+                    <span>HĐH: Android 6.0 (Marshmallow)</span>
+                    <span>CPU: Mediatek MT6750T 8 nhân</span>
+                    <span>RAM: 4 GB, ROM: 64 GB</span>
+                    <span>Camera: 13 MP, Selfie: 16 MP và 8 MP</span>
+                    <span>PIN: 3200 mAh</span>
+                </div>
+            </div>
+
+            <div class="wrapper-img">
+                <a href="#">
+                    <img src="public/images/image6.jpg" alt="image">
+                    <h3>OPPO F3 RED</h3>
+                    <strong>6.990.000đ</strong>
+                    <div class="sticknote">Trả góp 0%</div>
+                </a>
+                <div class="pro-desc">
+                    <span class="name">OPPO F3 RED</span>
+                    <strong>6.990.000đ</strong>
+                    <div class="promotion">
+                        <span>Gậy chụp ảnh (sefie) khi mua Online ( từ 4/7 - 31/7)</span>
+                        <span>Cơ hội trúng xe Honda Vision (Chương trình áp dụng tại một số tỉnh)</span>
+                    </div>
+                    <span>Màn hình: 5.5", Full HD</span>
+                    <span>HĐH: Android 6.0 (Marshmallow)</span>
+                    <span>CPU: Mediatek MT6750T 8 nhân</span>
+                    <span>RAM: 4 GB, ROM: 64 GB</span>
+                    <span>Camera: 13 MP, Selfie: 16 MP và 8 MP</span>
+                    <span>PIN: 3200 mAh</span>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

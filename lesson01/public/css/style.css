@@ -1,0 +1,29 @@
+.wrapper{
+    width: 1200px;
+    margin: 0 auto;
+}
+.header, .footer{
+    height: 120px;
+    background: #333;
+}
+.content{
+    min-height: 300px;
+    background: red;
+    width: 1200px;
+}
+.left{
+    float: left;
+    width: 300px;
+    background: blue;
+}
+.right{
+    float: left;
+    width: 900px;
+    background: white;
+    height: 300px;
+    overflow-x: scroll;
+    
+}
+.footer{
+    clear: both;
+}
